@@ -1,0 +1,15 @@
+// import di bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// import di fontawesome
+$fa-font-path: 'fonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+
+// import file parziali
+@import 'partials/_variables';
+@import 'partials/_common';
+@import 'partials/_menu';
+@import 'partials/_footer';
