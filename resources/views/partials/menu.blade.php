@@ -8,14 +8,13 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
+      <li class="nav-item {{ Request::route()->getName() == 'homepage' ? 'active' : '' }}">
         <a class="nav-link" href="{{ route('homepage') }}">Home</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {{ Request::route()->getName() == 'contatti' ? 'active' : '' }}">
         <a class="nav-link" href="{{ route('contatti') }}">Contatti</a>
       </li>
-      </li>
-      <li class="nav-item">
+      <li class="nav-item {{ Request::route()->getName() == 'faq' ? 'active' : '' }}">
         <a class="nav-link" href="{{ route('faq') }}">Domande frequenti</a>
       </li>
       <li class="nav-item dropdown">

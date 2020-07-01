@@ -14,6 +14,10 @@
             </div>
         </div>
     </div>
+    @include('home_partials.section_partners')
+    @include('home_partials.section_testimonials')
 @endsection
 
 @section('page-title', 'Homepage')
+
+@section('body-class', 'homepage')

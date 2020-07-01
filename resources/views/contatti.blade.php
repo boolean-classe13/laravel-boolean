@@ -11,3 +11,5 @@
 @endsection
 
 @section('page-title', 'Contattaci')
+
+@section('body-class', 'contatti')

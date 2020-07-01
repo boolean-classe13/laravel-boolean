@@ -22,5 +22,6 @@ Route::get('/contattaci', function() {
 })->name('contatti');
 
 Route::get('/faq', function() {
-    return view('faq');
+    $faqs = config('faq.lista_faq');
+    return view('faq')->with(['domande_risposte' => $faqs]);
 })->name('faq');
