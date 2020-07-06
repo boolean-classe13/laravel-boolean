@@ -5,6 +5,7 @@
         <div class="row">
             <div class="col-12">
                 <h1 class="text-center"><i class="fas fa-envelope"></i> Contattaci</h1>
+                <p>Ciao, {{ $persona }}</p>
             </div>
         </div>
     </div>
